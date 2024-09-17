@@ -7,7 +7,7 @@ Question 1:
 To determine whether these 10 song features are distributed normally, I created one 2x5  histogram per feature to illustrate the nature of their distributions. I used the python library matplotlib to do this. By creating these histograms, I was able to visualize that both danceability and tempo appear to be roughly normally distributed, but none of them look quite like perfect normal distributions. 
 
 Figure 1: Histograms of the distributions for the 10 song features of interest
-![Figure 1](./Figures/"Figure 1.png")
+![Figure 1](./Figures/Figure_1.png)
 
 Question 2: 
 To examine the relationship between song length and popularity of a song, I created a scatter plot with song duration (milliseconds) on the x-axis and Spotify’s popularity metric (0-100) on the y-axis. I created this scatterplot using the matplotlib library. Once creating the scatterplot, I could visualize that there was likely little to no relationship between these two variables, however to confirm this, I calculated Spearman’s and Pearson’s correlation coefficients and found that ⍴ = -0.05075177699292398 and  r = -0.06557678618430361, indicating that there is a very weak negative linear correlation and an even weaker negative monotonic correlation between song length and popularity. 
