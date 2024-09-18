@@ -13,6 +13,7 @@ Question 2:
 To examine the relationship between song length and popularity of a song, I created a scatter plot with song duration (milliseconds) on the x-axis and Spotify’s popularity metric (0-100) on the y-axis. I created this scatterplot using the matplotlib library. Once creating the scatterplot, I could visualize that there was likely little to no relationship between these two variables, however to confirm this, I calculated Spearman’s and Pearson’s correlation coefficients and found that ⍴ = -0.05075177699292398 and  r = -0.06557678618430361, indicating that there is a very weak negative linear correlation and an even weaker negative monotonic correlation between song length and popularity. 
 
 Figure 2: Scatterplot of Song Length vs Popularity  			
+![Figure 2](./Figures/Figure_2.png)
 
 
 Figure 3: Spearman’s rank Pearson correlation coefficient (r) output from python 
