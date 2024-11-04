@@ -2,7 +2,6 @@
 """
 Created on Mon Apr 22 15:23:44 2024
 
-@author: Izzy
 
 """
 #%% IMPORT STATEMENTS & DATA LOADING
@@ -25,12 +24,6 @@ from sklearn.decomposition import PCA
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix, roc_auc_score
 from scipy.special import expit 
-
-
-
-# Seed random number generator with my N number 
-izzy_nnumber = 15607109
-random.seed(izzy_nnumber)
 
 
 # Load the data 
@@ -354,7 +347,7 @@ y_pred = results.predict(x_train)
 # Calculate R-squared value
 r_squared = r2_score(y_train, y_pred)
 print()
-print("R-squared value on training set (using N-number as random seed):", r_squared)
+print("R-squared value on training set:", r_squared)
 
 
 
